@@ -1,13 +1,12 @@
-import Navbar from './components/Navbar';
 import './assets/stiles/custom.scss';
 import './App.css';
+import Home from 'pages/Home';
 
 
 const App = () => {
   return (
     <>
-      <Navbar />
-      <h1>Olá Catalogo</h1>
+      <Home/>
     </>
   );
 };
