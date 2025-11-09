@@ -1,0 +1,18 @@
+import ProductPrice from 'components/ProductPrice/Index';
+import './styles.css';
+import ProductImg from 'assets/images/product.png';
+import * as React from 'react';
+
+const ProductCard = () => {
+  return ( 
+        <div className ="base-card product-card>">
+            <div className = "card-top-container">
+                <img src={ProductImg} alt="Produto" />
+            </div>
+            <div className = "card-bottom-container">
+                <ProductPrice />
+            </div>
+        </div>
+   );
+}
+export default ProductCard;

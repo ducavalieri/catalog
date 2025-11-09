@@ -1,6 +1,7 @@
 import './styles.css';
 import '@popperjs/core';
 import 'bootstrap/js/src/collapse';
+import * as React from 'react';
 
 const Navbar = () => {
   return (
